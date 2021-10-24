@@ -1,0 +1,35 @@
+.w3-center{
+  margin: auto;
+  color: white;
+  font-size:2em;
+  font-family: Kristen ITC;
+  text-align: center;
+}
+.w3-content{
+  margin: 2% auto;
+  width: 20%;
+  transition: 0.66s;
+  height: 250px;
+  border-left:5px dotted red;
+  border-right:5px dotted red;
+}
+.mySlides {
+  display:none;
+}
+.container3{
+  height: 170px;
+  margin-top: 5%;
+}
+.home-content{
+  margin: 1% 5%;
+  height: 150px;
+  width: 14%;
+  float: left;
+}
+.home-content:hover{
+  transition: 0.66s;
+  margin: 1.2% 5.2%;
+  height: 152px;
+  width: 15%;
+  cursor: pointer;
+}

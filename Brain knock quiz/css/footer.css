@@ -1,0 +1,45 @@
+.container4{
+  height: 130px;
+  display: block;
+  margin: 6% auto;
+}
+.container4_1{
+  height: 80px;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 20%;
+  border-right: 5px solid #84EFFE;
+  border-left: 5px solid #84EFFE;
+}
+#footer_content_1{
+  text-align:center;
+  font-size: 18px;
+  color: white;
+  font-family: arial;
+}
+.container5{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  width: 90%;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 85px;
+  background-color: #580304;
+}
+#footer_content_2{
+  text-align:center;
+  font-size: 15px;
+  color: white;
+  font-family: arial;
+}
+#footer_content_3{
+  text-align:center;
+  font-size: 15px;
+  color: white;
+  font-family: arial;
+}
+#footer_link{
+  color:red;
+}

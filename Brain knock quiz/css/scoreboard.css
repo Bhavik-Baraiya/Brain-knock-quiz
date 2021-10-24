@@ -1,0 +1,37 @@
+.scoreboard-content{
+  margin: 5% auto;
+  border-radius: 5px;
+  box-shadow: 10px 4px 126px -38px rgba(20,500,252,1);
+  width: 50%;
+  height: fit-content;
+}
+#scoretable-head{
+  font-size: 3em;
+  color: white;
+  margin: 5% auto;
+  text-align: center;
+  display: block;
+}
+tr,th,td{
+  color: black;
+  margin: auto;
+  border-bottom: none;
+  border-radius: 2px;
+  text-align: center;
+}
+th{
+  width: 10%;
+  text-align: center;
+  background-color: #01FE5A;
+  padding: 2% 2%;
+  color:black;
+  font-size: 1em;
+  border: 5px solid green;
+  border-left: none;
+  border-right: none;
+}
+td{
+  padding: 1% 1%;
+  background-color: #D3FFCE;
+  font-size: 1em;
+}

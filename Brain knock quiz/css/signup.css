@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.signup_box_border{
+  border: 10px solid white;
+  border-radius: 15px;
+  margin:  5% auto;
+  background-color: #3DC0FE;
+  width: 40%;
+  box-shadow: 10px 4px 126px -38px rgba(20,500,300,1);
+  height: fit-content;
+}
+.signup{
+  width: 100%;
+  height: fit-content;
+}
+.signup_content{
+  margin-top: 10%;
+  font-size: 16px;
+  color: white;
+  margin-left: 10%;
+  background-color:inherit;
+  width: 80%;
+  height: fit-content;
+}
+#signup_head{
+  margin-left: 35%;
+  color: white;
+  font-size: 35px;
+}
+.input, .input_gen_born{
+  border: 1px solid
+  white;
+  border-radius: 5px;
+  width: 80%;
+  margin: 5% 10%;
+  height: 45px;
+  background-color: aliceblue;
+}
+.input_gen_born{
+  width: 80%;
+  margin: 5% 10%;
+  height: 120px;
+  background-color: inherit;
+  border: none;
+}
+#signup_input{
+  background-color: inherit;
+  width: 80%;
+  color: black;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 2% 4%;
+  border: none;
+}
+.gender{
+  border:2px solid grey;
+  border-radius: 5px;
+  width: 37%;
+  float: left;
+  margin-left: 10%;
+  background-color: white;
+  color: grey;
+  height: 120px;
+  margin-bottom: 4%;
+}
+.bornin{
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 120px;
+  width: 40%;
+  margin-right: 10%;
+  float: right;
+}
+.gender_icon_male,.gender_icon_female{
+  background-color: skyblue;
+  width: 30%;
+  height: 60px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 12%;
+  background-color: #caebf3;
+  display: inline-block;
+}
+.gender_icon_female{
+  width: 30%;
+  background-color: #f2c5ec;
+  float: right;
+  margin-right: 12%;
+}
+#reg_gender_head{
+  margin-left: 15%;
+  font-size: 20px;
+}
+#male_icon{
+  margin: 25% 32%;
+  height: fit-content;
+  float: left;
+}
+#female_icon{
+  margin: 25% 30%;
+    height: fit-content;
+}
+.gender_icon_male:hover{
+  border: 2px solid #13D4DF;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.gender_icon_female:hover{
+  border: 2px solid #E13ED3;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+#reg_born_head{
+  color: grey;
+  font-size: 16px;
+  margin: 4% 12%;
+  padding: 2px 20px;
+}
+#reg_born{
+  font-size: 18px;
+  padding: 5% 10%;
+  margin: 10% 24%;
+  border-top: 1px solid grey;
+}
+#reg_sub{
+  background-color: #3B3F41;
+  color: white;
+  margin:  7% auto;
+  display: block;
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 10px 90px;
+  border: none;
+  transition: 0.7s;
+}
+#reg_sub:hover{
+  cursor:pointer;
+  background-color: #EB3077;
+  color: black;
+}
+#signup_logo{
+  color: grey;
+  margin-left: 3%;
+}
+#error_msg{
+  margin: 1% 0%;
+  color:#F10702;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+#all_error_msg{
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 1em;
+  color:#F10702;
+  font-family: cursive;
+  transition: 0.30s;
+}
+#signuplink_head{
+  color: white;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  font-size: 0.6em;
+  font-family: Montserrat-Regular;
+}
+#signuplink_head:hover{
+  color: #F10702;
+  transition: 0.90s;
+}

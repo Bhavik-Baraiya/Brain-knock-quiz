@@ -1,0 +1,174 @@
+body{
+  padding: 0px;
+  margin:0px;
+  background-color: #1D0BA0;
+}
+.container1{
+  height: 162px;
+  width: 100%;
+  background-color: black;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.container2{
+  margin: 1% auto;
+  height: 110px;
+  width: 100%;
+  position: relative;
+  background-color: #021729;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.container1_1,.container1_3{
+  height: 155px;
+  background-color: #183D5C;
+  width: 26%;
+  margin: 0.1% auto;
+  float: left;
+  border:1px solid red;
+  display: block;
+}
+.container1_1{
+
+  border-left: none;
+}
+.container1_3{
+  float: right;
+  position: relative;
+}
+.container1_2{
+  width: 47.4%;
+  height: 149px;
+  float: left;
+  display: block;
+  position: relative;
+  margin: 0.1% 0.1%;
+  border: 1px solid red;
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+  background-color: #021729;
+}
+.container1_2_1,.container1_2_2,.container1_2_3{
+  height: 35px;
+  margin-top: 1%;
+  position: relative;
+}
+.container1_2_2{
+  height: 65px;
+}
+.container1_2_3{
+  height: 20px;
+}
+.container1_3_1,.container1_3_2{
+  height: 75.5px;
+}
+#quiz_head{
+  user-select: none;
+  color: #228DFF;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  text-align: center;
+  font-size: .9em;
+  font-family: Impact;
+}
+#main_head{
+  text-align: center;
+  font-size: 3em;
+  text-decoration: none;
+  display: block;
+  color:#228DFF;
+  margin:-1% auto;
+  font-family:Showcard Gothic;
+}
+#tagline{
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  text-align: center;
+  display: block;
+  font-size: .8em;
+  color:red;
+  text-decoration: underline;
+}
+#welcome_head{
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+  margin-left: 15%;
+  height: fit-content;
+}
+#welcome_head_1{
+  color: white;
+  font-size: 20px;
+  margin-left: 29%;
+  height: fit-content;
+}
+#welcome_sigin_link{
+  margin-bottom: 50%;
+  margin-left: 22%;
+  color: red;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Zapf Chancery, cursive;
+  display: block;
+}
+#welcome_sigin_link:hover{
+  color: yellow;
+  transition: 0.60s;
+  text-decoration: underline;
+}
+#welcome_sigin_link_1{
+  margin-left: 12%;
+  color: red;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  font-family:Zapf Chancery, cursive;
+}
+#welcome_sigin_link_1:hover{
+  color: yellow;
+  transition: 0.60s;
+  text-decoration: underline;
+}
+#menu{
+  margin: auto 10%;
+  width: 95%;
+}
+ul{
+  margin:0px;
+  padding: 0px;
+}
+#menu li {
+    padding: 0.6% 0.6%;
+    float: left;
+    margin: 2% 1%;
+    font-size: 22px;
+    width: 14.14%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid grey;
+    background-color: #3DC0FE;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    list-style: none;
+    border-radius: 2px;
+    text-align: center;
+}
+#menu li:hover{
+  cursor: pointer;
+  border-top: 8px solid red;
+  border-bottom: 2px solid red;
+  transition: 0.40s;
+  border-radius: 8px;
+  padding: 0.8% 0.8%;
+  width: 16.14%;
+  border-right: none;
+}
+#navbarmenu{
+  text-decoration: none;
+  color: white;
+}
+#navbarmenu:hover{
+  color: red;
+  transition: 0.56s;
+}
